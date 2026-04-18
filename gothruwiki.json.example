@@ -1,0 +1,12 @@
+{
+  "file": "/path/to/enwiki-latest-pages-articles-multistream.xml.bz2",
+  "workers": 8,
+  "out": "word_frequency.json",
+  "checkpoint": "wiki_progress.gob",
+  "checkpoint_every": 1000000,
+  "checkpoint_on_interrupt": false,
+  "resume": false,
+  "processor": "wordcount",
+  "decompress": "auto",
+  "main_namespace_only": false
+}
